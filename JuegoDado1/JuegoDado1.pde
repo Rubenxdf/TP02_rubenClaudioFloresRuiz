@@ -1,4 +1,4 @@
-dado dado1;
+Dado dado1;
 
 void setup(){
   size (800,600);
@@ -11,9 +11,9 @@ fill(0,0,200);
   rect(360,200,140,140); 
  //cuatro
  //constructor
- dado1 = new dado();
+ dado1 = new Dado();
  //puede no funcionar tamaño del texto
-   textSize(32);
+   textSize(45);
 
 }
 void draw(){
@@ -33,7 +33,7 @@ void keyReleased(){
     //dos
     if (resultado==2) {
       dado1.cara2();
-      //text("dos",620, 150);  
+      
     }
     //uno
     if (resultado==1) {

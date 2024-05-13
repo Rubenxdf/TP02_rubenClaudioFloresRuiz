@@ -1,8 +1,8 @@
-class dado{
+class Dado{
  
  public PVector cara1 ;
  //constructor 
- public dado(){
+ public Dado(){
  }
  public void cara4(){
    ellipse(400,300,30,30);
@@ -15,7 +15,6 @@ class dado{
  public void cara2(){
   ellipse(460,300,30,30);
    ellipse(400,230,30,30);
-    fill(255, 165, 0);
   text("dos",620, 150);
  
  }
