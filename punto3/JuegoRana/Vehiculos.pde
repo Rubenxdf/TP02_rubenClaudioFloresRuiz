@@ -1,1 +1,5 @@
-Class Vehiculo;
+class Vehiculo  implements IDisplayable{
+ public void display(){
+ 
+}
+}
